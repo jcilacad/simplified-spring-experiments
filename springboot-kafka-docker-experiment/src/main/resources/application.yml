@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: kakfa-springboot-demo
+
+  kafka:
+    boostrap-servers: localhost:9092
+    consumer:
+      group-id: my-group-id
+
+server:
+  port: 8081
