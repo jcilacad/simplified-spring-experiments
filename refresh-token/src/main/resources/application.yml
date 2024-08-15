@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: refreshtoken
+  datasource:
+    url: jdbc:postgresql://localhost:5432/refresh_token_db
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret:
+    key: 1b45d80597530be966b3da70851e27458d1857ea34604bb68c3e398a3f2badc0
