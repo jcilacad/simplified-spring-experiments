@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: minio-spring
+
+minio:
+  url: http://localhost:9000
+  access:
+    name: jcilacad_access_name
+    secret: jcilacad_access_secret
+  bucket:
+    name: jcilacad_bucket_name
