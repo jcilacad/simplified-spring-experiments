@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  config:
+    import: optional:file:.env[.properties]
+  application:
+    name: text-image-stability-ai
+  ai:
+    stabilityai:
+      image:
+        base-url: api.stability.ai/v1
+      api-key: ${STABILITY_API_KEY}
+
