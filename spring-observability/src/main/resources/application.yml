@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-observability
+
+management:
+    application:
+      name: demo
+      service-name: getting-started
