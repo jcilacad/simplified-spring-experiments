@@ -1,0 +1,9 @@
+spring:
+  config:
+    import: optional:file:.env[.properties]
+
+aws:
+  bucket:
+    name: ${AWS_BUCKET_NAME}
+  accessKey: ${AWS_ACCESS_KEY_ID}
+  secretKey: ${AWS_SECRET_ACCESS_KEY}

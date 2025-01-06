@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-aws-s3
+  config:
+    import: optional:file:.env[.properties]
+  profiles:
+    active: ${PROFILE:local}
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
